@@ -1,0 +1,80 @@
+//  code By Kuldeep Dixit
+
+#include <Servo.h> 
+ 
+Servo servo1;
+Servo servo2;
+Servo servo3;
+Servo servo4;
+Servo servo5;
+Servo servo6;// create servo object to control a servo 
+                
+ 
+int pos = 0;
+int dos=0;    // variables to store the servo position 
+ 
+void setup() 
+{ 
+ servo1.attach(3); // attaches the servo on pin 3 to the servo1 object 
+ servo2.attach(9);
+servo3.attach(6);
+servo4.attach(5);
+servo5.attach(10);
+servo6.attach(11);
+} 
+ 
+void loop() 
+{ 
+servo3.write(55);
+servo4.write(139);
+ for(pos = 108; pos <= 161; pos += 1)
+ {
+   if(pos<=161)
+   {
+servo5.write(pos);
+   }
+   if (pos<=154)
+{
+  servo6.write(pos);
+}
+delay(55);
+ }
+for(dos = 67; dos <= 92; dos += 1)
+{
+  if(dos<=67)
+  {
+    servo1.write(dos);
+  }
+  
+  if(dos<=80)
+  {
+    servo2.write(dos);
+
+  }
+  delay(55);
+ }
+for( ; pos >= 108; pos -= 1)    // pos=162
+{
+  if(pos<=108)
+  {
+    servo6.write(pos);
+  }
+  if(pos<=113)
+  {
+  servo5.write(pos);
+  }
+  delay(55);
+}
+for(; dos >= 67; dos -= 1)
+{
+  if(dos>=81)
+  {
+servo1.write(dos);
+}
+if(dos>=92)
+{
+  servo2.write(dos);
+}
+delay(55);
+} 
+}
