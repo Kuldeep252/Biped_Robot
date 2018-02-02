@@ -25,4 +25,4 @@ A simple model to mimic some human leg movement using servo motors.Click [here](
 Connect servos in pin no. 3,5,6,9,10 and11 of the arduino board.Connect the arduino to the battries through power supply circuit and, the servos directly to the battry set.Now simulate the movement of different servos using Serial servo control software and note down the respective values to simulate a motion. Start with standing position then alternate leg bending and note the sequential order.
 
 ## Programming 
-For this part we have the use the values which we obtained in previous step.Use these values with for loop and to control speed of rotation use delay fuction.An example program of walking is attached with this repository, which is working for my mini biped robot.You can use it as a reference.
+For this part we have to use the values which we obtained in previous step.Use these values with for loop and to control speed of rotation of servos use delay fuction.An example program of walking is attached with this repository, which is working for my mini biped robot.You can use it as a reference.
