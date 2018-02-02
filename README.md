@@ -1,6 +1,6 @@
 # Biped Robot
 
-A simple model to mimic some human leg movement using servo motors.
+A simple model to mimic some human leg movement using servo motors.Click [here](https://www.youtube.com/watch?v=GY02FQVUWQU) to watch the video
 
 ## prerequisite
 
