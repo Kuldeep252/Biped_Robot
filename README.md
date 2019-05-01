@@ -19,7 +19,7 @@ A simple model to mimic some human leg movement using servo motors.Click [here](
 ### Software required
 
 * [SerialServoControl](https://github.com/Soshimo/Serial-Servo-Controller)
-* [Arduino IDE (obviously)](https://www.arduino.cc/en/Main/Software)
+* [Arduino IDE](https://www.arduino.cc/en/Main/Software)
 
 ## Set-up
 Connect servos in pin no. 3,5,6,9,10 and11 of the arduino board.Connect the arduino to the battries through power supply circuit and, the servos directly to the battry set.Now simulate the movement of different servos using Serial servo control software and note down the respective values to simulate a motion. Start with standing position then alternate leg bending and note the sequential order.
