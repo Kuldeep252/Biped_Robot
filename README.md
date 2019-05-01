@@ -9,7 +9,7 @@ A simple model to mimic some human leg movement using servo motors.Click [here](
  
 ### Hardware required
 
-* An arduino uno
+* Arduino uno
 * 6 SG-90 micro servo motors 
 * 4 high discharge AA cells (must be more then 2000 mah per cell)
 * Connector wire
